@@ -1,5 +1,5 @@
 '''
-Configuration file for pyTephra2_uc code with umbrella cloud geometry.
+Configuration file for pyT2-UC code.
 All units are in international system units (i.e. kilograms, meters,
 meters per second, kilograms per square meter).
 
@@ -11,7 +11,7 @@ RUN_MODE = "custom points"
 OUTPUT_FILE_NAME = "output.txt"  # writes (x, y, thickness) data
 
 # INPUT FILE FOR 'CUSTOM POINTS' RUN MODE (e.g. must contain (x, y) data)
-CUSTOM_POINTS_FILE = "custom_x_y_pulu.txt"
+CUSTOM_POINTS_FILE = "custom_x_y.txt"
 
 # MAP AREA AND VENT COORDINATES
 MIN_EASTING = -50000

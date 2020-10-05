@@ -12,12 +12,12 @@ Contact: Constantinescu R. - robertc1@usf.edu
 
 The pyT2-UC code is used to simulate tephra sedimentation from umbrella clouds. The main equations are drawn from Tephra2 code, however, in this python version we switched from a subvertical plume geometry to a radial plume to simulate tephra sedimentation from umbrella clouds.
 The config file allows the user to input the eruption source parameters (ESPs).
-See requirements.txt to see the ncessary build environemnts.
+In 'requirements.txt' you can check the necessary build environemnts.
 
-The code calculates tephra thickness on a grid. There are three RUN MODES:
-    'grid',
-    'custom points'
-    'dispersal axis points'
+The code calculates tephra thickness on a grid. There are three RUN MODES:  
+    'grid',  
+    'custom points'  
+    'dispersal axis points'  
 
 The 'grid' mode calculates tephra accumulation on the entire grid (map).
 The 'custom points' calculates tephra accumulation at locations of interest (x,y) given an input file.
@@ -31,14 +31,6 @@ To run the code you must be in the 'umbrella_cloud_model' directory.
 Once the run mode is selected in the 'config.py' file, execute:
 
 `$python main.py`
-
-The plotter.py script is used to create a thickness vs distance plot from the outpufile of the main program. Edit the 'plotter.py' and change the 'field data'  and the 'thickness vs distance' files with the ones you need to plot. To run the plotter:
-
-`$python plotter.py`
-
-The 'equiline.py' script creates an equiline plot to visualize the fit between the modeled and observed thickness. Edit 'equiline.py' and change the input file. To run the program:
-
-`$python equiline.py`
 
 # The config file
 
