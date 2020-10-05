@@ -2,7 +2,7 @@
 
 Version: 0.10
 
-Date: 12 September 2020
+Date: 5 October 2020
 
 Coding and concept: Constantinescu R., Hopulele-Gligor A., Connor C.B.
 
@@ -10,17 +10,18 @@ Contact: Constantinescu R. - robertc1@usf.edu
 
 # The code and the concept
 
-The pyT2-UC code is used to simulate tephra sedimentation from umbrella clouds. The main equations are drawn from Tephra2 code, however, in this python version we switched from a subvertical plume geometry to a radial plume to simulate tephra sedimentation from umbrella clouds.
-The config file allows the user to input the eruption source parameters (ESPs).
-In 'requirements.txt' you can check the necessary build environemnts.
+The pyT2-UC is based on the advection-diffusion-sedimentation equations from Tephra2 code and is used to simulate tephra sedimentation from lateral spreading clouds (i.e. umbrella clouds). In this Python version, the subvertical plume source geometry of Tephra2 was changed to a radial geometry to simulate tephra sedimentation from umbrella clouds.  
+The config file allows the user to input the eruption source parameters (ESPs).  
+The 'requirements.txt' file shows the necessary build environemnts.
 
-The code calculates tephra thickness on a grid. There are three RUN MODES:  
+The code calculates tephra accumulation on a defined ground grid.  
+There are three RUN MODES:  
     'grid',  
     'custom points'  
     'dispersal axis points'  
 
-The 'grid' mode calculates tephra accumulation on the entire grid (map).
-The 'custom points' calculates tephra accumulation at locations of interest (x,y) given an input file.
+The 'grid' mode calculates tephra accumulation on the entire grid (map).  
+The 'custom points' calculates tephra accumulation at locations of interest (x,y) given an input file (i.e. custom_x_y.txt).  
 The 'dispersal axis points' calculates tephra accumulation at equally spaced points along the dispersal axis (i.e. wind direction).
 
 
