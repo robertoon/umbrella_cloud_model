@@ -1,4 +1,4 @@
-# pyTephra2_uc
+# pyT2-UC
 
 Version: 0.10
 
@@ -10,7 +10,7 @@ Contact: Constantinescu R. - robertc1@usf.edu
 
 # The code and the concept
 
-The pyTephra2_uc code is used to simulate tephra sedimentation from umbrella clouds. The main equations are drawn from Tephra2 code, however, in this python version we switched from a subvertical plume geometry to a radial plume to simulate tephra sedimentation from umbrella clouds.
+The pyT2-UC code is used to simulate tephra sedimentation from umbrella clouds. The main equations are drawn from Tephra2 code, however, in this python version we switched from a subvertical plume geometry to a radial plume to simulate tephra sedimentation from umbrella clouds.
 The config file allows the user to input the eruption source parameters (ESPs).
 See requirements.txt to see the ncessary build environemnts.
 
