@@ -3,6 +3,7 @@ Configuration file for pyT2-UC code.
 All units are in international system units (i.e. kilograms, meters,
 meters per second, kilograms per square meter).
 
+*Don't forget to select a RUN MODE.
 '''
 
 # SELECT RUN MODE: - DEFAULT VALUES ARE 'grid', 'custom points' OR 'dispersal axis points'
