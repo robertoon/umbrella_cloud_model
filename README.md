@@ -21,7 +21,7 @@ There are three RUN MODES:
 - 'dispersal axis points'  
 
 The '*grid*' mode calculates tephra accumulation on the entire grid (map).  
-The '*custom points*' calculates tephra accumulation at locations of interest (x,y) given an input file (i.e. *custom_x_y.txt*).  
+The '*custom points*' calculates tephra accumulation at locations of interest (x,y) given an input file (i.e. *custom_x_y.txt* - contains the (x, y) coordinates of the field sample locations at Pululagua).  
 The '*dispersal axis points*' calculates tephra accumulation at equally spaced points along the dispersal axis (i.e. wind direction).
 
 
