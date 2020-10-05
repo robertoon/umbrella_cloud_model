@@ -26,19 +26,19 @@ The 'dispersal axis points' calculates tephra accumulation at equally spaced poi
 
 # Running the code
 
-To run the code you must be in the 'umbrella_cloud' directory.
+To run the code you must be in the 'umbrella_cloud_model' directory.
 
 Once the run mode is selected in the 'config.py' file, execute:
 
-$python main.py
+`$python main.py`
 
 The plotter.py script is used to create a thickness vs distance plot from the outpufile of the main program. Edit the 'plotter.py' and change the 'field data'  and the 'thickness vs distance' files with the ones you need to plot. To run the plotter:
 
-$python plotter.py
+`$python plotter.py`
 
 The 'equiline.py' script creates an equiline plot to visualize the fit between the modeled and observed thickness. Edit 'equiline.py' and change the input file. To run the program:
 
-$equiline.py
+`$python equiline.py`
 
 # The config file
 
