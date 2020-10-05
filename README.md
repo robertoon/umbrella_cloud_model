@@ -45,7 +45,6 @@ The 'equiline.py' script creates an equiline plot to visualize the fit between t
 The config file is located in 'src' folder. Edit the config file to fill in the simulation parameters (eruption source parameters). An example is provided below:
 
 1. Select the run mode:
-
 RUN_MODE = "custom points" (alternatives are: 'grid' OR 'dispersal axis points')
 
 2. Select outputfile name:
