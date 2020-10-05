@@ -11,7 +11,7 @@ Contact: Constantinescu R. - robertc1@usf.edu
 # The code and the concept
 
 The **pyT2-UC** is based on the advection-diffusion-sedimentation equations from Tephra2 code and is used to simulate tephra sedimentation from lateral spreading clouds (i.e. umbrella clouds). In this Python version, the subvertical plume source geometry of Tephra2 was changed to a radial geometry to simulate tephra sedimentation from umbrella clouds.  
-The config file allows the user to input the eruption source parameters (ESPs).  
+The '*config.py* file allows the user to input the eruption source parameters (ESPs).  
 The '*requirements.txt*' file shows the necessary build environemnts.
 
 The code calculates tephra accumulation on a defined ground grid.  
