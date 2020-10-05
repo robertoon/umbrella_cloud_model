@@ -54,43 +54,43 @@ OUTPUT_FILE_NAME = "output.txt"  # writes (x, y, thickness data from the main pr
 CUSTOM_POINTS_FILE = "custom_x_y_.txt" (e.g. must contain (x y) data)
 
 4. Input the four corners of the map and vent location (in meters):  
-MIN_EASTING = -1
-MAX_EASTING = 1
-MIN_NORTHING = -1
-MAX_NORTHING = 1
-VENT_EASTING = 0.5
+MIN_EASTING = -1  
+MAX_EASTING = 1  
+MIN_NORTHING = -1  
+MAX_NORTHING = 1  
+VENT_EASTING = 0.5  
 VENT_NORTHING = 0.5
 
 5. Input ground grid resolution (default is 1000 equali spaced grid cells):  
 GROUND_GRID_SIZE = 100**2
 
 6. Input the umbrella cloud dimensions (in meters) and the resolution for the grid defining the geometry:  
-DISK_RADIUS = 10000
+DISK_RADIUS = 10000  
 DISK_GRID_STEP = 1000
 
 7.  Input the rest of the eruption surce parameters (in S/I units: meters, kilograms):  
-TOTAL_ERUPTED_MASS = 2.5e+11
-COLUMN_HEIGHT = 25000
-BULK_DENSITY = 1000
-PARTICLE_DENSITY_MAX = 1000
-PARTICLE_DENSITY_MIN = 1000
-DIFFUSION_COEF = 9500
-WIND_SPEED = 0
+TOTAL_ERUPTED_MASS = 2.5e+11  
+COLUMN_HEIGHT = 25000  
+BULK_DENSITY = 1000  
+PARTICLE_DENSITY_MAX = 1000  
+PARTICLE_DENSITY_MIN = 1000  
+DIFFUSION_COEF = 9500  
+WIND_SPEED = 0  
 WIND_DIRECTION = 0
 
 8. Select the grain size classes of the deposit and the statistics:  
-MAX_PHI = -11
-MIN_PHI = 11
-TGSD_SIGMA = 0.31
+MAX_PHI = -11  
+MIN_PHI = 11  
+TGSD_SIGMA = 0.31  
 TGSD_MEAN = 0.12
 
 9. Select which grain size classes (from the total above) you wish to simulate and the phi class discretization:  
-SIMULATED_MAX_PHI = -1
-SIMULATED_MIN_PHI = 3
+SIMULATED_MAX_PHI = -1  
+SIMULATED_MIN_PHI = 3  
 STEP_PHI = 1
 
 10. If simulating dispersal axis points, define the resolution:  
-DISPERSAL_AXIS_POINTS_NUMBER = 500
+DISPERSAL_AXIS_POINTS_NUMBER = 500  
 DISPERSAL_AXIS_POINTS_DISTANCE = 100
 
 
