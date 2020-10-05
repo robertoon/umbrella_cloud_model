@@ -10,32 +10,32 @@ Contact: Constantinescu R. - robertc1@usf.edu
 
 # The code and the concept
 
-The pyT2-UC is based on the advection-diffusion-sedimentation equations from Tephra2 code and is used to simulate tephra sedimentation from lateral spreading clouds (i.e. umbrella clouds). In this Python version, the subvertical plume source geometry of Tephra2 was changed to a radial geometry to simulate tephra sedimentation from umbrella clouds.  
+The **pyT2-UC** is based on the advection-diffusion-sedimentation equations from Tephra2 code and is used to simulate tephra sedimentation from lateral spreading clouds (i.e. umbrella clouds). In this Python version, the subvertical plume source geometry of Tephra2 was changed to a radial geometry to simulate tephra sedimentation from umbrella clouds.  
 The config file allows the user to input the eruption source parameters (ESPs).  
-The 'requirements.txt' file shows the necessary build environemnts.
+The '*requirements.txt*' file shows the necessary build environemnts.
 
 The code calculates tephra accumulation on a defined ground grid.  
 There are three RUN MODES:  
-    'grid',  
-    'custom points'  
-    'dispersal axis points'  
+    1. 'grid',  
+    2. 'custom points'  
+    3. 'dispersal axis points'  
 
 The 'grid' mode calculates tephra accumulation on the entire grid (map).  
-The 'custom points' calculates tephra accumulation at locations of interest (x,y) given an input file (i.e. custom_x_y.txt).  
+The 'custom points' calculates tephra accumulation at locations of interest (x,y) given an input file (i.e. *custom_x_y.txt*).  
 The 'dispersal axis points' calculates tephra accumulation at equally spaced points along the dispersal axis (i.e. wind direction).
 
 
 # Running the code
 
-To run the code you must be in the 'umbrella_cloud_model' directory.
+To run the code you must be in the '*/umbrella_cloud_model*' directory.
 
-Once the run mode is selected in the 'config.py' file, execute:
+Once the run mode is selected in the '*config.py*' file, execute:
 
 `$python main.py`
 
 # The config file
 
-The config file is located in 'src' folder. Edit the config file to fill in the simulation parameters (eruption source parameters). An example is provided below:
+The config file is located in '*/src*' folder. Edit the config file to fill in the simulation parameters (eruption source parameters). An example is provided below:
 
 1. Select the run mode:  
 RUN_MODE = "custom points" (alternatives are: 'grid' OR 'dispersal axis points')
